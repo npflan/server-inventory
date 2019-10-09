@@ -1,0 +1,48 @@
+
+HPE BladeSystem Onboard Administrator
+(C) Copyright 2006-2016 Hewlett Packard Enterprise Development LP
+
+Rack3Top-OA1 [SCRIPT MODE]> show server info 5
+
+
+Server Blade #5 Information:
+	Type: Server Blade
+	Manufacturer: HP
+	Product Name: ProLiant BL460c G7
+	Part Number: 603569-B21     
+	System Board Spare Part Number: 605659-001
+	Serial Number: CZJ1240J06      
+	UUID: 35333036-3936-5A43-4A31-3234304A3036
+	Server Name: 165556
+	Asset Tag: 165556
+	ROM Version: I27 07/02/2013
+
+	CPU 1: Intel(R) Xeon(R) CPU E5640 @ 2.67GHz (4 cores)
+	CPU 2: Intel(R) Xeon(R) CPU E5640 @ 2.67GHz (4 cores)
+	Memory: 98304 MB
+
+	FlexFabric Embedded Ethernet
+	  Ethernet (NIC 1) LOM:1-a            78:E3:B5:1C:EF:D0
+	 iSCSI HBA (iSCSI 1) LOM:1-b          78:E3:B5:1C:EF:D1
+	  FCoE HBA LOM:1-b                    10:00:78:E3:B5:1C:EF:D1
+	  Ethernet (NIC 2) LOM:2-a            78:E3:B5:1C:EF:D4
+	 iSCSI HBA (iSCSI 2) LOM:2-b          78:E3:B5:1C:EF:D5
+	  FCoE HBA LOM:2-b                    10:00:78:E3:B5:1C:EF:D5
+
+	Mezzanine 1: QLogic QMH2562 8Gb FC HBA for HP BladeSystem c-Class
+	   Port 1: 50:01:43:80:14:0e:99:dc
+	   Port 2: 50:01:43:80:14:0e:99:de
+
+Management Processor Information:
+	Type: iLO3
+	Name: 165556
+	Firmware Version: 1.90 Jul 26 2018
+	IP Address: 10.100.203.105
+	MAC Address: 98:4B:E1:7B:DA:4F
+	Power Management Controller Version: 1.6
+	iLO Federation Capable: No
+
+
+Rack3Top-OA1 [SCRIPT MODE]> 
+
+show server info 5

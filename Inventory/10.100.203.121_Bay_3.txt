@@ -1,0 +1,46 @@
+
+HPE BladeSystem Onboard Administrator
+(C) Copyright 2006-2016 Hewlett Packard Enterprise Development LP
+
+Rack3Top-OA1 [SCRIPT MODE]> show server info 3
+
+
+Server Blade #3 Information:
+	Type: Server Blade
+	Manufacturer: HP
+	Product Name: ProLiant BL465c G7
+	Part Number: 518851-B21     
+	System Board Spare Part Number: 598247-001
+	Serial Number: CZ21090038      
+	UUID: 38383135-3135-5A43-3231-303930303338
+	Server Name: 177009
+	Asset Tag: 177009
+	ROM Version: A19 02/02/2014
+
+	CPU 1: AMD Opteron(tm) Processor 6172 (12 cores)
+	CPU 2: AMD Opteron(tm) Processor 6172 (12 cores)
+	Memory: 131072 MB
+
+	FlexFabric Embedded Ethernet
+	  Ethernet (NIC 1) LOM:1-a            78:AC:C0:F9:AD:78
+	 iSCSI HBA (iSCSI 1) LOM:1-b          78:AC:C0:F9:AD:79
+	  FCoE HBA LOM:1-b                    10:00:78:AC:C0:F9:AD:79
+	  Ethernet (NIC 2) LOM:2-a            78:AC:C0:F9:AD:7C
+	 iSCSI HBA (iSCSI 2) LOM:2-b          78:AC:C0:F9:AD:7D
+	  FCoE HBA LOM:2-b                    10:00:78:AC:C0:F9:AD:7D
+
+	This server does not contain any mezzanine cards
+
+Management Processor Information:
+	Type: iLO3
+	Name: ILOCZ21090038
+	Firmware Version: 1.91 Oct 22 2018
+	IP Address: 10.100.203.103
+	MAC Address: 78:AC:C0:F9:AD:80
+	Power Management Controller Version: 1.6
+	iLO Federation Capable: No
+
+
+Rack3Top-OA1 [SCRIPT MODE]> 
+
+show server info 3

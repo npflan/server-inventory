@@ -1,0 +1,50 @@
+
+HPE BladeSystem Onboard Administrator
+(C) Copyright 2006-2016 Hewlett Packard Enterprise Development LP
+
+Rack2Bund-OA1 [SCRIPT MODE]> show server info 3
+
+
+Server Blade #3 Information:
+	Type: Server Blade
+	Manufacturer: HP
+	Product Name: ProLiant BL465c G7
+	Part Number:                
+	System Board Spare Part Number: 708064-001
+	Serial Number:                 
+	UUID: 00000000-0000-0000-0000-000000000000
+	Server Name: SHOP01
+	Asset Tag: [Unknown]
+	ROM Version: A19 02/02/2014
+
+	CPU 1: AMD Opteron(tm) Processor 6134 (8 cores)
+	CPU 2: AMD Opteron(tm) Processor 6134 (8 cores)
+	Memory: 106496 MB
+
+	FlexFabric Embedded Ethernet
+	  Ethernet (NIC 1) LOM:1-a            9C:B6:54:07:EF:D4
+	 iSCSI HBA (iSCSI 1) LOM:1-b          9C:B6:54:07:EF:D5
+	  FCoE HBA LOM:1-b                    10:00:9C:B6:54:07:EF:D5
+	  Ethernet (NIC 2) LOM:2-a            9C:B6:54:07:EF:D8
+	 iSCSI HBA (iSCSI 2) LOM:2-b          9C:B6:54:07:EF:D9
+	  FCoE HBA LOM:2-b                    10:00:9C:B6:54:07:EF:D9
+
+	This server does not contain any mezzanine cards
+
+Partner Device
+	Bay: 4
+	Name: D2200sb Storage Blade
+
+Management Processor Information:
+	Type: iLO3
+	Name: ILOP--x--Z--3
+	Firmware Version: 1.90 Jul 26 2018
+	IP Address: 10.100.202.203
+	MAC Address: 9C:B6:54:07:EF:DC
+	Power Management Controller Version: 1.6
+	iLO Federation Capable: No
+
+
+Rack2Bund-OA1 [SCRIPT MODE]> 
+
+show server info 3

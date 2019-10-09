@@ -1,0 +1,46 @@
+
+HPE BladeSystem Onboard Administrator
+(C) Copyright 2006-2016 Hewlett Packard Enterprise Development LP
+
+Rack1Bund-OA1 [SCRIPT MODE]> show server info 6
+
+
+Server Blade #6 Information:
+	Type: Server Blade
+	Manufacturer: HP
+	Product Name: ProLiant BL465c Gen8
+	Part Number: 634975-B21     
+	System Board Spare Part Number: 683821-001
+	Serial Number: CZJ3120316      
+	UUID: 39343336-3537-5A43-4A33-313230333136
+	Server Name: 166067
+	Asset Tag: [Unknown]
+	ROM Version: A26 11/02/2014
+
+	CPU 1: AMD Opteron(tm) Processor 6308 (4 cores)
+	CPU 2: AMD Opteron(tm) Processor 6308 (4 cores)
+	Memory: 524288 MB
+
+	FLB Adapter 1: HP FlexFabric 10Gb 2-port 554FLB Adapter
+	  Ethernet (NIC 1) LOM1:1-a           6C:3B:E5:B6:52:B0
+	 iSCSI HBA LOM1:1-b                   6C:3B:E5:B6:52:B1
+	  FCoE HBA LOM1:1-b                   10:00:6C:3B:E5:B6:52:B1
+	  Ethernet (NIC 2) LOM1:2-a           6C:3B:E5:B6:52:B4
+	 iSCSI HBA LOM1:2-b                   6C:3B:E5:B6:52:B5
+	  FCoE HBA LOM1:2-b                   10:00:6C:3B:E5:B6:52:B5
+
+	This server does not contain any mezzanine cards
+
+Management Processor Information:
+	Type: iLO4
+	Name: bottom-ilo6
+	Firmware Version: 2.60 May 23 2018
+	IP Address: 10.100.201.206
+	MAC Address: 6C:3B:E5:A1:2D:C7
+	Power Management Controller Version: 3.3.0
+	iLO Federation Capable: Yes
+
+
+Rack1Bund-OA1 [SCRIPT MODE]> 
+
+show server info 6

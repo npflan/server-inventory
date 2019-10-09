@@ -1,0 +1,46 @@
+
+HPE BladeSystem Onboard Administrator
+(C) Copyright 2006-2016 Hewlett Packard Enterprise Development LP
+
+Rack2Bund-OA1 [SCRIPT MODE]> show server info 8
+
+
+Server Blade #8 Information:
+	Type: Server Blade
+	Manufacturer: HP
+	Product Name: ProLiant BL465c G7
+	Part Number: 518851R-B21    
+	System Board Spare Part Number: 598247-001
+	Serial Number: CZ3220J967      
+	UUID: 38383135-3135-5A43-3332-32304A393637
+	Server Name: CH2-PPV-ESX10
+	Asset Tag: [Unknown]
+	ROM Version: A19 02/02/2014
+
+	CPU 1: AMD Opteron(tm) Processor 6172 (12 cores)
+	CPU 2: AMD Opteron(tm) Processor 6172 (12 cores)
+	Memory: 131072 MB
+
+	FlexFabric Embedded Ethernet
+	  Ethernet (NIC 1) LOM:1-a            3C:4A:92:75:2F:AA
+	 iSCSI HBA (iSCSI 1) LOM:1-b          3C:4A:92:75:2F:AB
+	  FCoE HBA LOM:1-b                    10:00:3C:4A:92:75:2F:AB
+	  Ethernet (NIC 2) LOM:2-a            3C:4A:92:75:2F:AE
+	 iSCSI HBA (iSCSI 2) LOM:2-b          3C:4A:92:75:2F:AF
+	  FCoE HBA LOM:2-b                    10:00:3C:4A:92:75:2F:AF
+
+	This server does not contain any mezzanine cards
+
+Management Processor Information:
+	Type: iLO3
+	Name: ILOCZ3220J967
+	Firmware Version: 1.91 Oct 22 2018
+	IP Address: 10.100.202.208
+	MAC Address: 3C:4A:92:75:2F:B2
+	Power Management Controller Version: 1.6
+	iLO Federation Capable: No
+
+
+Rack2Bund-OA1 [SCRIPT MODE]> 
+
+show server info 8

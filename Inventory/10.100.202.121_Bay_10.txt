@@ -1,0 +1,24 @@
+
+HPE BladeSystem Onboard Administrator
+(C) Copyright 2006-2016 Hewlett Packard Enterprise Development LP
+
+Rack2Top-OA1 [SCRIPT MODE]> show server info 10
+
+
+Server Blade #10 Information:
+	Type: Storage Blade
+	Manufacturer: HP
+	Product Name: D2200sb Storage Blade
+	Part Number: AP880A
+	System Board Spare Part Number: 621520-002
+	Serial Number: TWT421004T
+	ROM Version: 2.30
+
+Partner Device
+	Bay: 9
+	Name: ProLiant BL460c Gen8
+
+
+Rack2Top-OA1 [SCRIPT MODE]> 
+
+show server info 10

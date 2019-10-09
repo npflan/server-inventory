@@ -1,0 +1,44 @@
+
+HPE BladeSystem Onboard Administrator
+(C) Copyright 2006-2016 Hewlett Packard Enterprise Development LP
+
+Rack1Top-OA1 [SCRIPT MODE]> show server info 8
+
+
+Server Blade #8 Information:
+	Type: Server Blade
+	Manufacturer: HP
+	Product Name: ProLiant BL460c G6
+	Part Number: 507778-B21     
+	System Board Spare Part Number: 595046-001
+	Serial Number: CZJ023061W      
+	UUID: 37373035-3837-5A43-4A30-323330363157
+	Server Name: DANTE
+	Asset Tag: [Unknown]
+	ROM Version: I24 03/30/2010
+
+	CPU 1: Intel(R) Xeon(R) CPU X5550 @ 2.67GHz (4 cores)
+	CPU 2: Intel(R) Xeon(R) CPU X5550 @ 2.67GHz (4 cores)
+	Memory: 24576 MB
+
+	Flex-10 Embedded Ethernet
+	    NIC 1: 78:E7:D1:59:08:D0
+	    NIC 2: 78:E7:D1:59:08:D4
+	  iSCSI 1: 78:E7:D1:59:08:D1
+	  iSCSI 2: 78:E7:D1:59:08:D5
+
+	This server does not contain any mezzanine cards
+
+Management Processor Information:
+	Type: iLO2
+	Name: top-ilo8
+	Firmware Version: 2.33 Mar 20 2018
+	IP Address: 10.100.201.108
+	MAC Address: 78:E7:D1:5E:26:B2
+	Power Management Controller Version: 3.4
+	iLO Federation Capable: No
+
+
+Rack1Top-OA1 [SCRIPT MODE]> 
+
+show server info 8

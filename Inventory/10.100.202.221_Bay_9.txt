@@ -1,0 +1,46 @@
+
+HPE BladeSystem Onboard Administrator
+(C) Copyright 2006-2016 Hewlett Packard Enterprise Development LP
+
+Rack2Bund-OA1 [SCRIPT MODE]> show server info 9
+
+
+Server Blade #9 Information:
+	Type: Server Blade
+	Manufacturer: HP
+	Product Name: ProLiant BL460c G7
+	Part Number: 603251-B21     
+	System Board Spare Part Number: 605659-001
+	Serial Number: CZJ0440GLP      
+	UUID: 32333036-3135-5A43-4A30-343430474C50
+	Server Name: 161864
+	Asset Tag: 161864
+	ROM Version: I27 07/02/2013
+
+	CPU 1: Intel(R) Xeon(R) CPU X5670 @ 2.93GHz (6 cores)
+	CPU 2: Intel(R) Xeon(R) CPU X5670 @ 2.93GHz (6 cores)
+	Memory: 49152 MB
+
+	FlexFabric Embedded Ethernet
+	  Ethernet (NIC 1) LOM:1-a            D4:85:64:57:0B:10
+	 iSCSI HBA (iSCSI 1) LOM:1-b          D4:85:64:57:0B:11
+	  FCoE HBA LOM:1-b                    10:00:D4:85:64:57:0B:11
+	  Ethernet (NIC 2) LOM:2-a            D4:85:64:57:0B:14
+	 iSCSI HBA (iSCSI 2) LOM:2-b          D4:85:64:57:0B:15
+	  FCoE HBA LOM:2-b                    10:00:D4:85:64:57:0B:15
+
+	This server does not contain any mezzanine cards
+
+Management Processor Information:
+	Type: iLO3
+	Name: ILOY---------U
+	Firmware Version: 1.90 Jul 26 2018
+	IP Address: 10.100.202.209
+	MAC Address: D4:85:64:5A:30:CE
+	Power Management Controller Version: 1.6
+	iLO Federation Capable: No
+
+
+Rack2Bund-OA1 [SCRIPT MODE]> 
+
+show server info 9

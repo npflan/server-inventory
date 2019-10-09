@@ -1,0 +1,46 @@
+
+HPE BladeSystem Onboard Administrator
+(C) Copyright 2006-2016 Hewlett Packard Enterprise Development LP
+
+Rack1Top-OA1 [SCRIPT MODE]> show server info 16
+
+
+Server Blade #16 Information:
+	Type: Server Blade
+	Manufacturer: HP
+	Product Name: ProLiant BL460c G6
+	Part Number: 595725-B21     
+	System Board Spare Part Number: 595046-001
+	Serial Number: CZJ02703TM      
+	UUID: 37353935-3532-5A43-4A30-32373033544D
+	Server Name: KubeWorker04
+	Asset Tag: [Unknown]
+	ROM Version: I24 01/29/2011
+
+	CPU 1: Intel(R) Xeon(R) CPU X5650 @ 2.67GHz (6 cores)
+	CPU 2: Intel(R) Xeon(R) CPU X5650 @ 2.67GHz (6 cores)
+	Memory: 49152 MB
+
+	Flex-10 Embedded Ethernet
+	    NIC 1: 1C:C1:DE:05:50:58
+	    NIC 2: 1C:C1:DE:05:50:5C
+	  iSCSI 1: 1C:C1:DE:05:50:59
+	  iSCSI 2: 1C:C1:DE:05:50:5D
+
+	Mezzanine 1: QLogic QMH2562 8Gb FC HBA for HP BladeSystem c-Class
+	   Port 1: 50:01:43:80:18:70:77:e0
+	   Port 2: 50:01:43:80:18:70:77:e2
+
+Management Processor Information:
+	Type: iLO2
+	Name: 162488
+	Firmware Version: 2.33 Mar 20 2018
+	IP Address: 10.100.201.116
+	MAC Address: 78:E7:D1:F5:BC:F4
+	Power Management Controller Version: 3.4
+	iLO Federation Capable: No
+
+
+Rack1Top-OA1 [SCRIPT MODE]> 
+
+show server info 16
