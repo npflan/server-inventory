@@ -1,0 +1,50 @@
+
+HPE BladeSystem Onboard Administrator
+(C) Copyright 2006-2016 Hewlett Packard Enterprise Development LP
+
+Rack2Top-OA2 [SCRIPT MODE]> show server info 7
+
+
+Server Blade #7 Information:
+	Type: Server Blade
+	Manufacturer: HP
+	Product Name: ProLiant BL460c Gen9
+	Part Number: 813198-B21
+	System Board Spare Part Number: 843305-001
+	Serial Number: CZ26460535
+	Serial Number (Logical): 
+	UUID: 31333138-3839-5A43-3236-343630353335
+	UUID (Logical): 00000000-0000-0000-0000-000000000000
+	Server Name: 177615
+	Asset Tag: 177615
+	ROM Version: I36 09/12/2016
+	Boot Mode: UEFI Optimized
+	Secure Boot: Disabled
+
+	CPU 1: Intel(R) Xeon(R) CPU E5-2640 v4 @ 2.40GHz (10 cores)
+	CPU 2: Intel(R) Xeon(R) CPU E5-2640 v4 @ 2.40GHz (10 cores)
+	Memory: 524288 MB
+
+	FLB Adapter 1: HP FlexFabric 10Gb 2-port 536FLB Adapter
+	  Ethernet (NIC 0) LOM1:1-a           9C:DC:71:67:C5:90
+	 iSCSI HBA LOM1:1-b                   9C:DC:71:67:C5:91
+	  FCoE HBA LOM1:1-b                   20:00:9C:DC:71:67:C5:91
+	  Ethernet (NIC 1) LOM1:2-a           9C:DC:71:67:C5:98
+	 iSCSI HBA LOM1:2-b                   9C:DC:71:67:C5:99
+	  FCoE HBA LOM1:2-b                   20:00:9C:DC:71:67:C5:99
+
+	This server does not contain any mezzanine cards
+
+Management Processor Information:
+	Type: iLO4
+	Name: ilo-vmware7
+	Firmware Version: 2.78 Apr 28 2021
+	IP Address: 10.100.202.107
+	MAC Address: 70:10:6F:B8:2F:54
+	Power Management Controller Version: 1.0.9
+	iLO Federation Capable: Yes
+
+
+Rack2Top-OA2 [SCRIPT MODE]> 
+
+show server info 7

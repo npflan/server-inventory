@@ -1,0 +1,54 @@
+
+HPE BladeSystem Onboard Administrator
+(C) Copyright 2006-2016 Hewlett Packard Enterprise Development LP
+
+Rack2Bund-OA2 [SCRIPT MODE]> show server info 1
+
+
+Server Blade #1 Information:
+	Type: Server Blade
+	Manufacturer: HP
+	Product Name: ProLiant BL490c G7
+	Part Number: 603599-B21     
+	System Board Spare Part Number: 605660-001
+	Serial Number: CZ21400H9K      
+	UUID: 35333036-3939-5A43-3231-34303048394B
+	Server Name: PR-R2-B-B1
+	Asset Tag: 175500
+	ROM Version: I28 08/16/2015
+
+	CPU 1: Intel(R) Xeon(R) CPU X5670 @ 2.93GHz (6 cores)
+	CPU 2: Intel(R) Xeon(R) CPU X5670 @ 2.93GHz (6 cores)
+	Memory: 196608 MB
+
+	FlexFabric Embedded Ethernet
+	  Ethernet (NIC 1) LOM:1-a            2C:76:8A:AC:49:16
+	 iSCSI HBA (iSCSI 1) LOM:1-b          2C:76:8A:AC:49:17
+	  FCoE HBA LOM:1-b                    10:00:2C:76:8A:AC:49:17
+	  Ethernet (NIC 2) LOM:2-a            2C:76:8A:AC:49:1A
+	 iSCSI HBA (iSCSI 2) LOM:2-b          2C:76:8A:AC:49:1B
+	  FCoE HBA LOM:2-b                    10:00:2C:76:8A:AC:49:1B
+
+	Mezzanine 1: QLogic QMH2562 8Gb FC HBA for HP BladeSystem c-Class
+	   Port 1: 50:01:43:80:14:0e:e7:d0
+	   Port 2: 50:01:43:80:14:0e:e7:d2
+
+	Mezzanine 2: HP StorageWorks 320GB IO Accelerator
+
+Partner Device
+	Bay: 2
+	Name: D2200sb Storage Blade
+
+Management Processor Information:
+	Type: iLO3
+	Name: 175500
+	Firmware Version: 1.90 Jul 26 2018
+	IP Address: 10.100.202.201
+	MAC Address: 2C:76:8A:AC:49:1E
+	Power Management Controller Version: 1.6
+	iLO Federation Capable: No
+
+
+Rack2Bund-OA2 [SCRIPT MODE]> 
+
+show server info 1

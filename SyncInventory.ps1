@@ -14,7 +14,7 @@ if ($NetBoxToken -eq $null) {
     $NetBoxToken = Read-Host "Please type NetBox API Key"
 }
 
-$NetBoxTokenHeader = @{Authorization = "Token $($NetBoxToken)"}
+$NetBoxTokenHeader = @{Authorization = "token $($NetBoxToken)"}
 
 $CPUInfos = @(
     @{Name = 'AMD Opteron(tm) Processor 6134 (8 cores)'; Speed = 2.30; Cores = 8; HyperThreading = $false; }
@@ -44,11 +44,11 @@ $DHCPReservations += (Invoke-RestMethod -Method Get -Uri 'https://raw.githubuser
 
 $OverviewList = @()
 "Getting C7000 Enclosures from NetBox..."
-$DeviceTypes = (Invoke-RestMethod -Method Get -Uri "$($NetBoxApiBaseURL)dcim/device-types?limit=9999" -Header $NetBoxTokenHeader).results
+$DeviceTypes = (Invoke-RestMethod -Method Get -Uri "$($NetBoxApiBaseURL)dcim/device-types/?limit=9999" -Headers $NetBoxTokenHeader).results
 [string]$BladeCenterDeviceTypeId = $DeviceTypes | Where-Object {$_.model -eq "C7000 Bladecenter"} | Select-Object -ExpandProperty Id
-$AllDevices = (Invoke-RestMethod -Method Get -Uri "$($NetBoxApiBaseURL)dcim/devices?limit=9999" -Header $NetBoxTokenHeader).results
+$AllDevices = (Invoke-RestMethod -Method Get -Uri "$($NetBoxApiBaseURL)dcim/devices/?limit=9999" -Headers $NetBoxTokenHeader).results
 $Enclosures = $AllDevices | Where-Object {$_.device_type.id -eq $BladeCenterDeviceTypeId -and $_.site.id -eq $CurrentSite} | Select-Object id, name, platform, serial, @{n = 'primary_ipv4_address'; e = {$_.primary_ip4.address.replace('/24', '')}}, comment | sort primary_ipv4_address
-$AllEnclosureBays = (Invoke-RestMethod -Method Get -Uri "$($NetBoxApiBaseURL)dcim/device-bays?limit=9999" -Header $NetBoxTokenHeader).results | Where-Object {$_.device.id -in $Enclosures.Id} | Select id, device, name, description, installed_device
+$AllEnclosureBays = (Invoke-RestMethod -Method Get -Uri "$($NetBoxApiBaseURL)dcim/device-bays/?limit=9999" -Headers $NetBoxTokenHeader).results | Where-Object {$_.device.id -in $Enclosures.Id} | Select id, device, name, description, installed_device
 
 "Running loop over enclosures..."
 if ($credsBladeEnclosure -eq $null) {
@@ -132,7 +132,7 @@ foreach ($Enclosure in ($Enclosures | Where-Object {$_.primary_ipv4_address -ne 
                     } | ConvertTo-Json -Compress
                     Invoke-RestMethod -Method Post -Uri "$($NetBoxApiBaseURL)dcim/devices/" -ContentType "application/json" -Body $body -Header $NetBoxTokenHeader | Out-Null
 
-                    $AllDevices = (Invoke-RestMethod -Method Get -Uri "$($NetBoxApiBaseURL)dcim/devices?limit=9999" -Header $NetBoxTokenHeader).results
+                    $AllDevices = (Invoke-RestMethod -Method Get -Uri "$($NetBoxApiBaseURL)dcim/devices/?limit=9999" -Header $NetBoxTokenHeader).results
                     #find using serial number
                     if ([string]::IsNullOrWhiteSpace($EnclosureBayData_SerialNumber) -eq $false) {
                         $FoundDevice = $AllDevices | Where-Object {$_.serial -eq $EnclosureBayData_SerialNumber}
@@ -256,7 +256,7 @@ foreach ($Enclosure in ($Enclosures | Where-Object {$_.primary_ipv4_address -ne 
                     } | ConvertTo-Json -Compress
                     Invoke-RestMethod -Method Post -Uri "$($NetBoxApiBaseURL)dcim/devices/" -ContentType "application/json" -Body $body -Header $NetBoxTokenHeader | Out-Null
 
-                    $AllDevices = (Invoke-RestMethod -Method Get -Uri "$($NetBoxApiBaseURL)dcim/devices?limit=9999" -Header $NetBoxTokenHeader).results
+                    $AllDevices = (Invoke-RestMethod -Method Get -Uri "$($NetBoxApiBaseURL)dcim/devices/?limit=9999" -Header $NetBoxTokenHeader).results
                     #find using serial number
                     if ([string]::IsNullOrWhiteSpace($EnclosureBayData_SerialNumber) -eq $false) {
                         $FoundDevice = $AllDevices | Where-Object {$_.serial -eq $EnclosureBayData_SerialNumber}
